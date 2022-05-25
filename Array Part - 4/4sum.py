@@ -1,4 +1,4 @@
-def four_sum(nums,target):
+def four_sum(nums,target):  #here nums is an list of integers that contains negative values also , and target is the target number to find
     if not nums and len(nums) < 4:
         return []
     res = []
