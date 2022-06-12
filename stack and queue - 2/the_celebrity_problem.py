@@ -17,7 +17,7 @@ def the_celebrity_problem(arr):
     
     for i in range(n):
         if i!= pc:
-            if arr[i][pc] == 0 or arr[pc][i] == 1:
+            if arr[i][pc] == 0 or arr[pc][i] == 1: #i that does not know potential or potential doesnot knows i then false
                 return -1
     
     return pc
